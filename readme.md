@@ -69,4 +69,5 @@ URL: https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
 * Tuples can be defined with brackets `let tup : (bool, char, i128) = (true, 'W', 1231);`
 * They can be unpacked with let and ( ) `let (w, x, y, z) = tup;`
 * Arrays are fixed size and can be typehinted `let array : [i64; 3] = [1, 3, 4];`
-* 
+
+
