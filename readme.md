@@ -60,4 +60,13 @@ that can be evaluated at compile time.
 * Variables can be shadowed in the same or different scopes with differing
 types and other data
 
+## 5_datatypes
 
+URL: https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+
+* Lots of standard data types
+* `_` can be used as a number separator `1_000_000`
+* Tuples can be defined with brackets `let tup : (bool, char, i128) = (true, 'W', 1231);`
+* They can be unpacked with let and ( ) `let (w, x, y, z) = tup;`
+* Arrays are fixed size and can be typehinted `let array : [i64; 3] = [1, 3, 4];`
+* 
