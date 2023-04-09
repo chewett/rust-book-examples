@@ -70,4 +70,19 @@ URL: https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
 * They can be unpacked with let and ( ) `let (w, x, y, z) = tup;`
 * Arrays are fixed size and can be typehinted `let array : [i64; 3] = [1, 3, 4];`
 
+## 6_functions
+
+URL: https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+
+* Function parameters requires the typehinting for each parameter
+* Statements are instructions which perform some action and do not return
+a value e.g. `let x = 10;`
+* Expressions evaluate to a value e.g. `x + 10`
+* Expressions do not end in a semicolon
+* Calling a function or macro is an expression
+* Functions that return values must be typehinted with an arrow `->`
+e.g. `fn five() -> i32 { }`
+
+
+
 
