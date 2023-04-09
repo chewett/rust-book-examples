@@ -23,5 +23,28 @@ URL: https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
 * `cargo check` - Will check the source is good
 * `cargo build --release` - Will build in release mode
 
+## 3_guessing_game
+
+URL: https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html
+
+* `use std::io;` - Importing the `io` library in `std`
+* `let` string creates variables, immutable by default
+* `//` is a comment line starter
+* `String` is a growable UTF8 encoded bit of text
+* `::` indicates a function of the previous string,
+so `String::new` calls the new function of `String`
+* `&mut guess` Passes the guess variable in as a mutable reference
+* `Result` is a possible type returned from functions and is
+a type of enum
+* Each possible state of an enum is called a variant
+* `Result` is used to encode error information
+* `Result`'s enum types are `Ok` and `Err`
+* `Ok` variant indicates that the result was successful and the value
+ is the successful value of calling the method/etc
+* `Err` variant indicates that the result failed and contains all
+the information about why it failed, etc.
+* `expect()` is a function which will. for an `Ok` result will
+return the value in `Ok` but otherwise stop the program with the message
+passed to the function with the various stack information 
 
 
