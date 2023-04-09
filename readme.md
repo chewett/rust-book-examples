@@ -48,3 +48,16 @@ return the value in `Ok` but otherwise stop the program with the message
 passed to the function with the various stack information 
 
 
+## 4_variables
+
+URL: https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+
+* By default variables are immutable
+* `mut` can be used to make variables mutable
+* Constants can be defined with `const` and can never be mutable
+* Constants must have a type annotation and can only be set to values
+that can be evaluated at compile time.
+* Variables can be shadowed in the same or different scopes with differing
+types and other data
+
+
