@@ -18,6 +18,7 @@ URL: https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
 
 URL: https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
 
+* `cargo new` - Set up a new project
 * `cargo build` - Will build the executable
 * `cargo run` - Will compile and run
 * `cargo check` - Will check the source is good
