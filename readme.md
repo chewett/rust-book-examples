@@ -96,7 +96,7 @@ URL: https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
 * `loop {}` can return a value by using break to return the value.
 * Loops can be labelled with `'loop_label_name: loop {}` to allow picking which one to break
 * Breaking out of a specific labelled loop can be done with `break 'loop_label_name;`
-* `while condition {}` constructs work similar to other languages, albeit with cavets about the condition similar to `if`
+* `while condition {}` constructs work similar to other languages, albeit with caveats about the condition similar to `if`
 * You can loop over items in a collection by using `for element in collection { }`
 
 
