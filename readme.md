@@ -84,6 +84,9 @@ a value e.g. `let x = 10;`
 * Functions that return values must be typehinted with an arrow `->`
 e.g. `fn five() -> i32 { }`
 
+## 7_control_flow
 
+URL: https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
 
-
+* if/else statements like other languages
+* If condition must be a boolean, you can't put anything there
