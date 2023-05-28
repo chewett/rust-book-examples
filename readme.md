@@ -89,4 +89,14 @@ e.g. `fn five() -> i32 { }`
 URL: https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
 
 * if/else statements like other languages
-* If condition must be a boolean, you can't put anything there
+* If condition must be a boolean, you can't put anything non-bool there, it won't auto typecast
+* Since if is an expression you can use it on the right hand side of let
+* e.g. `let number = if condition { 5 } else { 6 };`
+* `loop {}` can be used to run forever, `break` will break out of this similar to other looping constructs
+* `loop {}` can return a value by using break to return the value.
+* Loops can be labelled with `'loop_label_name: loop {}` to allow picking which one to break
+* Breaking out of a specific labelled loop can be done with `break 'loop_label_name;`
+* `while condition {}` constructs work similar to other languages, albeit with cavets about the condition similar to `if`
+* You can loop over items in a collection by using `for element in collection { }`
+
+
